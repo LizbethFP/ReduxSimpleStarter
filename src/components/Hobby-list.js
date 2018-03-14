@@ -1,11 +1,10 @@
 import React from 'react';
+import HobbyListLi from './Hobby-list-li';
 
 const HobbyList = () => (
   <section>
     <ul>
-      <li>Ver televisión</li>
-      <li>Leer cómics</li>
-      <li>Salir con mi hermana</li>
+      <HobbyListLi/>
     </ul>
   </section>
 )
