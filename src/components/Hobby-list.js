@@ -1,11 +1,11 @@
 import React from 'react';
 import HobbyListUl from './Hobby-list-ul';
 import HobbyListLi from './Hobby-list-li';
-// import PicTitle from './pic-title';
+import PicTitle from './pic-title';
 
-const HobbyList = () => (
+const HobbyList = ({pedro}) => (
   <section>
-    {/* <PicTitle/> */}
+    <PicTitle juan="array"/>
     <HobbyListUl/>
   </section>
 )

@@ -29,3 +29,13 @@ class HobbyListLi extends Component {
 
 
 export default HobbyListLi;
+
+/* LULU */
+// const espanol = [1,2,3];
+// const ingles = ['welcome', 'us', 'they'];
+
+// const NavBar = () => {
+//   const list = ingles.map((el, index) => 
+//   <a key={index}>{el}</a>
+// )
+// }

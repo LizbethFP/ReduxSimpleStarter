@@ -1,11 +1,11 @@
 import React from 'react';
 import Chick from './assets/images/chick.jpg';
 
-const PicTitle = () => (
-  // <div>
-  //   <h3>Chick</h3>
-  //   <img src={Chick} alt={Chick}/>
-  // </div>
+const PicTitle = ({juan}) => (
+  <div>
+    <h3>Chick</h3>
+    <img src={Chick} alt={juan}/>
+  </div>
 )
 
 export default PicTitle;
