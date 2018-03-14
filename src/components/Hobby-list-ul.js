@@ -1,10 +1,10 @@
 import React from 'react';
 import HobbyListLi from './Hobby-list-li';
 
-const HobbyListUl = () => {
+const HobbyListUl = () => (
   <ul>
-  <HobbyListLi/>
+    <HobbyListLi/>
   </ul>
-}
+)
 
 export default HobbyListUl;
