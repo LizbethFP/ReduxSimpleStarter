@@ -1,11 +1,10 @@
 import React from 'react';
+import HobbyListUl from './Hobby-list-ul';
 import HobbyListLi from './Hobby-list-li';
 
 const HobbyList = () => (
   <section>
-    <ul>
-      <HobbyListLi/>
-    </ul>
+    <HobbyListUl/>
   </section>
 )
 
