@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header>
-  Lizbeth Félix Peña
+    <p>Lizbeth Félix Peña</p>
   </header>
 )
 
